@@ -68,11 +68,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '更多',
                 link: '/more/',
                 items: [
-                    {text: '学习', link: '/pages/f2a556/'},
-                    {text: '面试', link: '/pages/aea6571b7a8bae86/'},
-                    {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
-                    {text: '实用技巧', link: '/pages/baaa02/'},
-                    {text: '友情链接', link: '/friends/'},
+                    {text: '学习', link: '/pages/00000000/'},
+                    {text: '面试', link: '/pages/00000000/'},
+                    {text: '心情杂货', link: '/pages/00000000/'},
+                    {text: '实用技巧', link: '/pages/00000000/'},
+                    {text: '友情链接', link: '/pages/00000000/'},
                 ],
             },
             {
@@ -177,7 +177,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         footer: {
             createYear: 2022, // 博客创建年份
             copyrightInfo:
-                'SMLZ Li | <a href="https://github.com/clearlove10-c/blog/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+                'SMLZ Li | <a href="https://github.com/clearlove10-c/blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
 
         // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
