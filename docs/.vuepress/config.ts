@@ -173,19 +173,18 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 },
             ],
         },
-        // @ts-ignore
         // 页脚信息
         footer: {
             createYear: 2022, // 博客创建年份
-            // copyrightInfo:
-            //     'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+            copyrightInfo:
+                'SMLZ Li | <a href="https://github.com/clearlove10-c/blog/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
 
         // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
         extendFrontmatter: {
             author: {
                 name: 'smlz',
-                link: 'https://github.com/xugaoyi'
+                link: 'https://github.com/cleaerlove10-c'
             }
         },
     },
