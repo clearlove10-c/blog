@@ -35,8 +35,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 items: [
                     {text: 'HTML', link: '/pages/cd8bde/'},
                     {text: 'CSS', link: '/pages/cd8bde/'},
-                    {text: 'Vue', link: '/pages/cd8bde/'},
-                    {text: 'JavaScript', link: '/pages/cd8bde/'},
+                    {text: 'Vue', link: '/pages/114158caa9e96df0/'},
+                    {text: 'JavaScript', link: '/pages/8143cc480faf9a11/'},
                 ],
             },
             {
@@ -52,16 +52,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: '算法',
                 link: '/algorithm/',
                 items: [
-                    {text: '还没想好的标签1', link: '/pages/cd8bde/'},
-                    {text: '还没想好的标签2', link: '/pages/cd8bde/'},
+                    {text: '笔记', link: '/pages/cd8bde/'},
+                    {text: '其他', link: '/pages/cd8bde/'},
                 ],
             },
             {
                 text: '技术',
                 link: '/tools/',
                 items: [
-                    {text: '还没想好的标签1', link: '/pages/cd8bde/'},
-                    {text: '还没想好的标签2', link: '/pages/cd8bde/'},
+                    {text: '博客搭建', link: '/pages/fbf040/'},
+                    {text: '笔记', link: '/pages/cd8bde/'},
+                    {text: '其他', link: '/pages/cd8bde/'},
                 ],
             },
             {
@@ -69,10 +70,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 link: '/more/',
                 items: [
                     {text: '学习', link: '/pages/00000000/'},
-                    {text: '面试', link: '/pages/00000000/'},
-                    {text: '心情杂货', link: '/pages/00000000/'},
-                    {text: '实用技巧', link: '/pages/00000000/'},
-                    {text: '友情链接', link: '/pages/00000000/'},
+                    {text: '日剧', link: '/pages/00000000/'},
                 ],
             },
             {
