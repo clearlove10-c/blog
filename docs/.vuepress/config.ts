@@ -270,6 +270,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 },
             },
         ],
+        [
+            'posts-encrypt',
+            {
+                route: '/auth',
+                passwd: '010610',
+                encryptInDev: true,
+                expires: 1000  * 60
+            }
+        ]
     ],
 
     markdown: {
