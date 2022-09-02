@@ -24,6 +24,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "github:vuepress-reco/vuepress-plugin-bgm-player",
     "vuepress-plugin-posts-encrypt": "^0.0.6"
   }
 }

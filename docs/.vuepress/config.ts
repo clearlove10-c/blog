@@ -276,7 +276,36 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 route: '/auth',
                 passwd: '010610',
                 encryptInDev: true,
-                expires: 1000  * 60
+                expires: 1000 * 60
+            }
+        ],
+        [
+            '@vuepress-reco/vuepress-plugin-bgm-player',
+            {
+                audios: [
+                    // 本地文件示例
+                    {
+                        name: 'Swallowtail Butterfly あいのうた',
+                        artist: 'YEN TOWN BAND',
+                        url: '/music/YEN TOWN BAND - Swallowtail Butterfly あいのうた.mp3',
+                        cover: 'https://y.qq.com/music/photo_new/T002R300x300M000002rBdVz0WFCOn_1.jpg?max_age=2592000'
+                    },
+                    // 网络文件示例
+                    {
+                        name: '강남역 4번 출구',
+                        artist: 'Plastic / Fallin` Dild',
+                        url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+                        cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+                    },
+                    {
+                        name: '用胳膊当枕头',
+                        artist: '최낙타',
+                        url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+                        cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+                    }
+                ],
+                autoShrink: true,
+                floatStyle: {bottom: '20px', 'z-index': '999999'}
             }
         ]
     ],
